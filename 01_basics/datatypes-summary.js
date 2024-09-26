@@ -52,3 +52,29 @@ console.log(typeof anotherId); // datatype is symbol
 // https://262.ecma-international.org/5.1/#:~:text=ECMAScript%20operators%20include%20various%20unary,operators%2C%20and%20the%20comma%20operator.
 // article : the types of Operator
 
+// +++++++++++++++++++++++++
+
+// types of memory 
+
+// Stack (Primitive) copy milta hai, Heap (Non-Primitive) changes original mai hote hai
+
+// https://excalidraw.com/
+let myYoutubename = "arjunkhadsedotcom"  
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "arjun@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
