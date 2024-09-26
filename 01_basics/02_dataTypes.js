@@ -30,3 +30,4 @@ console.log(typeof null); // object
 
 
 // for documentation refer to ts39 and mdn
+// priority algorithms in stadards are mandatory in which ecmascript and documentation helps
